@@ -24,5 +24,5 @@ select count(distinct order_id) as Total_Orders
 from dbo.pizza_sales;
 
 ---Average Pizzas Sold----
-select sum(quantity)/count(distinct order_id) as Average_Pizza_Sold
+select CAST(sum(quantity) as decimal(10,2))/CAST(count(distinct order_id)as decimal(10,2)) as Average_Pizza_Sold
 from dbo.pizza_sales;
