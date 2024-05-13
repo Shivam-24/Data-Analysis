@@ -12,6 +12,8 @@ Sales Performance of a Pizza Store that includes KPIs like Revenue, Orders, Orde
 
 **Concepts**: Data Modelling, Visual-level Filters, KPI Cards, Slicers, Navigation Pages, Report Interactions.
 
+**Mode**: Import Mode.
+
 #### Report
 ![screenshot](https://github.com/Shivam-24/Data-Analysis/blob/6th-May/Screenshorts/Home.png)
 
